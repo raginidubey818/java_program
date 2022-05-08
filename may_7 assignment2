@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class my
+	{
+	public static void main(String args[])
+	{
+	Scanner sc=new Scanner(System.in);
+	int num1,num2,result;
+	System.out.println("enter the first number");
+	num1=sc.nextInt();
+	System.out.println("enter the second number");
+	num2=sc.nextInt();
+	result=num1+num2;
+	System.out.println("the ADDITION is"+result);
+	
+	result=num1-num2;
+	System.out.println("the SUBTRACTION is"+result);
+	
+	result=num1*num2;
+	System.out.println("the MULTIPLICATION is"+result);
+	
+	result=num1/num2;
+	System.out.println("the DIVISION is"+result);
+	
+	result=num1%num2;
+	System.out.println("the MODULUS is"+result);
+	}
+	}
+	
+	
