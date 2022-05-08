@@ -1,0 +1,8 @@
+import java.io.*;
+class main
+	{
+	public static void main(String args[])
+	{
+	System.out.println("myself Ragini dubey \nphone no:8208197074 \nStream: B.Sc.I.T");
+	}
+	}
