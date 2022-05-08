@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class circle
+	{
+	public static void main(String args[])
+	{
+	int radius,area;
+	double pi,circumference;
+	Scanner sc=next Scanner(System.in);
+	
+	System.out.println("Enter the radius:");
+	radius=sc.nextInt();
+	
+	System.out.println("Enter the value of pie:");
+	pi=sc.nextDouble();
+	
+	area=pi*radius*radius;
+	System.out.println("The AREA of circle is:"+area);
+	
+	circumference=pi*2*radius;
+	System.out.println("The CIRCUMFERENCE is:"+circumference);
+	}
+	}
+	
