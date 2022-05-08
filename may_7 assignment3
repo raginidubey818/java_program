@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class SI
+	{
+	public static void main(String args[])
+	{
+	float p,r,t,SI;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the principal:");
+	p=sc.nextFloat();
+	
+	System.out.println("Enter the rate of interest:");
+	r=sc.nextFloat();
+	
+	System.out.println("Enter the time period:");
+	t=sc.nextFloat();
+	
+	SI=(r*t*p)/100;
+	System.out.println("The Simple Interest is:"+SI);
+	}
+	}
+	
