@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class rectangle
+	{
+	public static void main(String args[])
+	{
+	Scanner sc=new Scanner(System.in);
+	float length,breadth,area,parimeter;
+	
+	System.out.println("Enetr the length:");
+	length=sc.nextFloat();
+	
+	System.out.println("Enter the breadth:");
+	breadth=sc.nextFloat();
+	
+	area=length*breadth;
+	parimeter=2*(length*breadth);
+	
+	System.out.println("The AREA of rectangle is:"+area);
+	System.out.println("The PERIMETER of rectangle is:"+parimeter);
+	}
+	}
