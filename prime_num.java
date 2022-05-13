@@ -1,25 +1,29 @@
-package primee_demo;
 import java.util.Scanner;
-public class prime_num {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int  num,i;
-		Scanner sc=new Scanner(System.in);
-        boolean flag=false;
-          System.out.println("enter the number");
-          	num=sc.nextInt();
-          	for(i=2;i<=num/2;i++)
-          			if(num%i==0)	
-          			{
-          				flag=true;
-          				break;
-          			}
-	
-	if(!flag)
-		System.out.println(num+"prime number");
-	else
-		System.out.println(num+"not a prime number");
-
-}
-}
+class prime_num
+	{
+	public static void main(String args[])
+	{
+	int num=0,i=0,n,counter;
+	Scanner sc=new Scanner(System.in);
+	String primeNumber="";
+	System.out.println("Enter the value of n:");
+	n=sc.nextInt();
+	for(i=1;i<=n;i++)
+	{
+	    counter=0;
+		for(num=i;num>=1;num--)
+		{
+			if(i%num==0)
+			{
+				counter=counter+1;
+			}
+		}
+		if(counter==2)
+		{
+			primeNumber=primeNumber+i+" ";
+		}
+	}
+	System.out.println("prime number from 1 to n:");
+	System.out.println(primeNumber);
+	}
+	}
